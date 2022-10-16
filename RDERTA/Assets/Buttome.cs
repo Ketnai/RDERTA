@@ -12,6 +12,5 @@ public class Buttome : MonoBehaviour
     public void ButtonClicked() {
         number++;
         numberText.text = number.ToString();
-        Debug.Log("fake");
 }
 }
