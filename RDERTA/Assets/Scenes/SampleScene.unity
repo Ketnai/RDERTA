@@ -696,10 +696,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1746860859}
         m_TargetAssemblyTypeName: Unit, Assembly-CSharp
         m_MethodName: TakeDamage
         m_Mode: 3
+=======
+      - m_Target: {fileID: 1746860856}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+>>>>>>> Stashed changes
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
