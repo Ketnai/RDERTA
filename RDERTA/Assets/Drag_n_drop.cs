@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 public class Drag_n_drop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler {
 
-    [SerializeField] prviate Canvas canvas;
     private RectTransform rectTransform;
     private void Awake() {
         rectTransform = GetComponent<RectTransform>();
