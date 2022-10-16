@@ -4,14 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Spell : MonoBehaviour
 {
-    public GameObject enemy;
-    private Unit Unit;
-    void Awake()
+
+    Unit a;
+    void start()
     {
-        Unit = GetComponent<Unit>();
+        a = GameObject.findGameObjectWithTag("a").GetComponent<unit>();
     }
-        public void OnButtonClick()
+    public void OnButtonClick()
     {
-       Unit.TakeDamage(10);
+        a.TakeDamage(10);
     }
 }

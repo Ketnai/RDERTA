@@ -11,7 +11,7 @@ public class Unit : MonoBehaviour
     
     void update ()
     {
-        if (currenthp < 0)
+        if (currenthp <= 0)
         {
             Destroy(gameObject);
         }
